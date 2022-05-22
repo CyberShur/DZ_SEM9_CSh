@@ -13,6 +13,6 @@ int ResultNumber(int num)
     {
         return num;
     }
-    Console.Write(num + ",");
+    Console.Write(num + ", ");
     return ResultNumber(num-1);
 }
