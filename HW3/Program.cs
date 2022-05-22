@@ -27,7 +27,10 @@ int AckermannFunction(int num1, int num2)
     {
         return AckermannFunction(num1 - 1, AckermannFunction(num1, num2 - 1));
     }
-    return AckermannFunction(num1,num2);
+    else
+    {
+        return AckermannFunction(num1,num2);
+    }
 }
 
 int Coordinate(string coorName)
